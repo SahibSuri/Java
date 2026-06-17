@@ -5,8 +5,9 @@ public class factorial {
         if(n<=1){
             return 1;
         }
-        int res = n*calcFactorial(n-1);
         System.out.println(" X " + n);
+        int res = n*calcFactorial(n-1);
+        
         return res;
     }
     public static void main(String[] args) {
