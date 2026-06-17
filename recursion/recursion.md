@@ -14,5 +14,3 @@ In classic recursion we use Top-Down , that is we break the problems into the sm
 Real-world analogy - Imagine going to the ground floor to get some food from the kitchen
 Base Case - already at the ground floor 
 Recursive step - while going downward using the staircase - take one step down and ask yourself to continue on the lower floor . The call stack is the trail of breadcrumbs (stack frames) you leave so you can climb back up with the answer.
-
-(d) 
