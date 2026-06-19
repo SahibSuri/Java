@@ -7,7 +7,13 @@ public class sfn {
         }
         return n + sum(n-1);            //recursive
     }
+    public static void Tailsfn(int n , int result){
+        if(n==0){System.out.println(result);}
+        Tailsfn(n-1, n+result);
+
+    }
     public static void main(String[] args) {
         System.out.println(sum(50));
+        Tailsfn(5, 0);
     }
 }
