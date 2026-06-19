@@ -13,3 +13,10 @@ public class TailRecursion{
         System.out.println(Factorial(5, 1));
     }
 }
+
+// Tail recursion:
+// space complexity in normal recursion in O(n)[stack space] , but TR has O(1)[stack space]
+// faster execution in language that supports TCO
+// TCO is tail call optimization used by language compilers to save memory.
+// When a recursive call is the last thing a function does TCO reuse the current function stack frame instead of creating a new one
+// This prevents StackOverflowErrors
