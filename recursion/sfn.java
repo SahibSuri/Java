@@ -7,6 +7,7 @@ public class sfn {
         }
         return n + sum(n-1);            //recursive
     }
+    // sum of first N natural numbers using Tail Recursion
     public static void Tailsfn(int n , int result){
         if(n==0){System.out.println(result);}
         Tailsfn(n-1, n+result);
