@@ -10,11 +10,12 @@ Space Complexity: O(n) due to temporary arrays used during the merge step. The r
 Ques- why is merge sort is preffered over quick sort in certain scenarios
 <br>
 ans- quick sort has an average time complexity of O(nlogn) but can degrade to O(n2) in the worst case (ex - already sorted array with a poor pivot selection) , whereas merge sort always guarantees O(nlogn) time.
+<br>
 ##Advantages of merge sort:
 => Guarantees performance
 => Stable sorting imp. when sorting objects by multiple keys
 => Excellent for external sorting when data does not fit in the main memory
-
+<br>
 ##Disadvantage
 => Requires O(n) extra space
 => Quick Sort is in-place and has better cache performance in practice for in-memory sorting.
