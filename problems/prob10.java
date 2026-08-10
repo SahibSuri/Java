@@ -1,5 +1,5 @@
 package problems;
-
+// reverse an array
 import java.util.Arrays;
 
 public class prob10 {
